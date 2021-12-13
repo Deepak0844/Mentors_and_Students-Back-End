@@ -23,7 +23,7 @@ async function createConnections() {
 export const client = await createConnections();
 
 app.get("/", (request, respond) => {
-  respond.send("hello");
+  respond.send("Assigning Mentor and Students");
 });
 
 //router
